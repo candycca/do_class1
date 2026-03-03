@@ -1,20 +1,28 @@
-# Personal Portfolio - Hsin Chaio Tien
+# Personal Status Page - Hsin Chiao Tien
 
-This is the source code for the personal portfolio website of **Hsin Chaio Tien**. It features a modern, responsive design with real-time clock and status indicators.
+![Project Preview](homepage.png)
+
+A minimalist, modern personal status page designed to display identity, online availability, and real-time local information. Built with a focus on clean aesthetics and performance.
 
 ## Features
 
-- **Modern UI/UX**: clean, dark-themed design with glassmorphism effects.
-- **Real-time Clock**: Displays current time and date dynamically.
-- **Status Indicator**: Shows online status (simulated).
-- **Responsive**: Fully optimized for mobile and desktop devices.
+- **Minimalist Identity**: Clean presentation of name and role.
+- **Live Status Indicator**: Visual "Online" status with pulsing animation.
+- **Real-time Clock**: Precise local time and date display updated every second.
+- **Responsive Design**: Optimized layout for both desktop and mobile viewing with glassmorphism UI elements.
 
-## Setup
+## Tech Stack
 
-To view this project locally:
+- **HTML5**: Semantic structure.
+- **CSS3**: Custom variables, Flexbox, Animations, and responsive media queries.
+- **JavaScript (ES6+)**: Efficient DOM manipulation for time and status updates.
+
+## Setup & usage
+
+To run this project locally:
 
 1. Clone the repository.
-2. Open `index.html` in your web browser.
+2. Open `index.html` in any modern web browser.
 
 ## Deployment
 
@@ -23,7 +31,6 @@ To deploy this site using GitHub Pages:
 1. Push the code to a GitHub repository.
 2. Go to `Settings` -> `Pages`.
 3. Select the `main` branch as the source.
-4. Your site will be live at `https://<username>.github.io/<repository-name>/`.
 
 ## License
 

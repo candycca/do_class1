@@ -12,14 +12,9 @@ function updateTime() {
     document.getElementById('date').textContent = dateString;
 }
 
-function updateFooterYear() {
-    document.getElementById('year').textContent = new Date().getFullYear();
-}
-
 function init() {
     // Run immediately
     updateTime();
-    updateFooterYear();
     
     // Update time every second
     setInterval(updateTime, 1000);
