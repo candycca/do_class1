@@ -1,8 +1,6 @@
 # Personal Status Page - Hsin Chiao Tien
-
-![Project Preview]
 live demo: https://candycca.github.io/do_class1/
-(homepage.png)
+![Project Preview](homepage.png)
 
 A minimalist, modern personal status page designed to display identity, online availability, and real-time local information. Built with a focus on clean aesthetics and performance.
 
