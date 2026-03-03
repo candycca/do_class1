@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hsin Chaio Tien | Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="profile-section">
+                <div class="avatar">
+                    <span class="avatar-initials">HT</span>
+                    <div class="status-indicator online" id="status-indicator"></div>
+                </div>
+                <div class="profile-info">
+                    <h1>Hsin Chaio Tien</h1>
+                    <p class="subtitle">Developer & Creator</p>
+                    <div class="status-text" id="status-text">
+                        <span class="dot"></span> Current Status: <span class="status-value">Online</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="time-widget">
+                <div id="clock" class="clock">00:00:00</div>
+                <div id="date" class="date">Loading date...</div>
+            </div>
+        </header>
+
+        <main>
+            <section class="card intro-card">
+                <h2>About Me</h2>
+                <p>Hello! I am Hsin Chaio Tien. I build high-quality web experiences and explore the frontiers of technology.</p>
+                <div class="actions">
+                    <button class="btn primary">Contact Me</button>
+                    <button class="btn secondary">View Projects</button>
+                </div>
+            </section>
+
+            <section class="grid-section">
+                <div class="card project-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Development</h3>
+                    <p>Building robust applications with modern workflows.</p>
+                </div>
+                <div class="card project-card">
+                    <i class="fas fa-brain"></i>
+                    <h3>Reinforcement Learning</h3>
+                    <p>Exploring AI agents and environment interactions.</p>
+                </div>
+                <div class="card project-card">
+                    <i class="fas fa-layer-group"></i>
+                    <h3>Design system</h3>
+                    <p>Crafting pixel-perfect user interfaces.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; <span id="year"></span> Hsin Chaio Tien. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
